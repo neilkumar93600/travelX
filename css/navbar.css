@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --bg: #00c6f2;
+    --wh: #fff;
+}
+
+nav
+{
+    width: 90%;
+    border-bottom: 1px solid var(--bg);
+    margin-left: 4.5rem;
+}
+
+.logo
+{
+    margin-right: 5px;
+}
+.x
+{
+    color: var(--bg);
+}
+li .btn-0
+{
+    border-right: 1px solid var(--bg)
+}
+
+li .btn-0:hover, .btn-0::after
+{
+    background: var(--bg);
+    border-right: none;
+    font-weight: bolder;
+}
+
+li .btn-0 a:hover
+{
+    color: var(--wh);
+}
+
+.btn-1
+{
+    background: var(--bg);
+    border-radius: 7px;
+    margin-left: 70px;
+    font-weight: bolder;
+}
+
